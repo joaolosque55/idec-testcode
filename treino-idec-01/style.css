@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Outfit:wght@300;400;500;600&display=swap');
+
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #2D3033;
+            color: white;
+        }
+
+        .logo-header > a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Merriweather', serif;
+            font-size: larger;
+        }
+
+        .style-list > a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .style-list > a:hover {
+            color: #187DDB;
+            transition-duration: 0.2s;
+            
+        }
+
+        .user-login > a {
+            text-decoration: none;
+            background-color: #3470A8;
+            border-radius: 5px;
+            padding: 5px;
+            color: white;
+            
+        }
+
+        .user-login:hover {
+            background-color: #1d3e5e;
+            transform: scale(1.1);
+            transition-duration: 0.2s;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('test-img/imagem1.png');
+            background-size: cover;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+
+        #main-title, #main-subtitle {
+            color: white;
+        }
+
+
+        .email-input {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            transition-duration: 0.2s;
+        }
+
+
+        .email-input:hover {
+            transform: scale(1.1);
+        }
+
+        .submit-input {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #008CBA;
+            color: white;
+            cursor: pointer;
+            transition-duration: 0.2s;
+        }
+
+        .submit-input:hover {
+            transform: scale(1.1);
+        }
+
+        #cursos-online {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+
+        .course-box {
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #cursos-presenciais {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            box-sizing: border-box;
+        }
